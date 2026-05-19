@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Pattern Break — Course Waitlist | Mae Novak</title>
+    <meta
+      name="description"
+      content="The course for the man who built everything except this. Join the waitlist to be first to know when The Pattern Break opens."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="The Pattern Break — Course Waitlist" />
+    <meta
+      property="og:description"
+      content="The course for the man who built everything except this. Join the waitlist for The Pattern Break."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Fonts: Boska (display) + Satoshi (body) via Fontshare -->
+    <link
+      rel="preconnect"
+      href="https://api.fontshare.com"
+      crossorigin
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=boska@500,500i,700&f[]=satoshi@400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="brand" aria-label="The Pattern Break">
+            <!-- Brand mark: a square break — line meets right angle.
+                 Geometric, masculine, restrained. -->
+            <svg
+              class="brand__mark"
+              viewBox="0 0 36 36"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="square"
+              aria-hidden="true"
+            >
+              <path d="M4 18 H22" />
+              <path d="M22 18 V32" />
+              <circle cx="22" cy="18" r="1.4" fill="currentColor" stroke="none" />
+            </svg>
+            <span class="brand__wordmark">The Pattern Break</span>
+          </a>
+
+          <button
+            type="button"
+            class="theme-toggle"
+            data-theme-toggle
+            aria-label="Switch to dark mode"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              aria-hidden="true"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===== HERO + WAITLIST FORM ===== -->
+      <section class="hero">
+        <div class="container">
+          <p class="hero__eyebrow" data-reveal>Course · Waitlist</p>
+
+          <h1 class="hero__headline" data-reveal>
+            You built a company from nothing.
+            <em>You can’t figure out why your wife feels alone.</em>
+          </h1>
+
+          <p class="hero__subhead" data-reveal>
+            A course for the high-performing married man who’s winning at work
+            and losing at home — and who’s done waiting for a rough patch to
+            fix itself.
+          </p>
+
+          <div class="waitlist-card" data-reveal>
+            <span class="waitlist-card__label">Join the waitlist</span>
+
+            <form
+              class="waitlist-form"
+              id="waitlist-form"
+              action="https://app.kit.com/forms/ab3c84bbb0/subscriptions"
+              method="post"
+              data-sv-form="ab3c84bbb0"
+              data-uid="ab3c84bbb0"
+              novalidate
+            >
+              <div class="waitlist-form__row">
+                <label class="sr-only" for="email">Email address</label>
+                <input
+                  class="waitlist-form__input"
+                  id="email"
+                  name="email_address"
+                  type="email"
+                  required
+                  autocomplete="email"
+                  placeholder="your@email.com"
+                />
+                <button class="waitlist-form__button" type="submit">
+                  Get on the list
+                </button>
+              </div>
+
+              <p class="waitlist-form__footnote">
+                Be first to know when the course opens. One email when it’s
+                live. No funnel. No spam. Unsubscribe anytime.
+              </p>
+
+              <div class="waitlist-form__success" role="status" aria-live="polite">
+                You’re on the list. <br />Watch for an email from Mae.
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PROMISE / THREE BEATS ===== -->
+      <section class="promise">
+        <div class="container">
+          <p class="promise__eyebrow" data-reveal>What the course covers</p>
+
+          <h2 class="promise__heading" data-reveal>
+            The trait that built your business is quietly costing you your
+            marriage. <em>You haven’t been taught the difference yet.</em>
+          </h2>
+
+          <div class="promise__grid">
+            <div class="promise__item" data-reveal>
+              <span class="promise__num">01</span>
+              <h3 class="promise__title">Name the inheritance</h3>
+              <p class="promise__body">
+                The operating system you got from your father — the closing
+                instinct, the fix-first reflex, the I-just. Most men have never
+                been told it has a name, and you can’t change what you can’t
+                see.
+              </p>
+            </div>
+
+            <div class="promise__item" data-reveal>
+              <span class="promise__num">02</span>
+              <h3 class="promise__title">Read the receipts</h3>
+              <p class="promise__body">
+                The cost you’ve already paid — the dinners she stopped
+                suggesting, the rooms she stopped entering, the things your son
+                only tells the other parent. Quiet, compounding, and almost
+                always invisible until someone walks you through them.
+              </p>
+            </div>
+
+            <div class="promise__item" data-reveal>
+              <span class="promise__num">03</span>
+              <h3 class="promise__title">Run the rep</h3>
+              <p class="promise__body">
+                Small, precise, repeatable. Not therapy-speak. Not a script.
+                The shape of action that actually changes the temperature in
+                your house — built for a man whose nervous system is allergic
+                to vague advice.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== AUTHOR / CREDIBILITY ===== -->
+      <section class="author">
+        <div class="container">
+          <div class="author__inner">
+            <div>
+              <p class="author__label">Your guide</p>
+              <h2 class="author__name">Mae Novak</h2>
+              <p class="author__credentials">
+                MSW, UNC Chapel Hill<br />
+                Certified Personal Transformation Coach
+              </p>
+            </div>
+
+            <div>
+              <p class="author__bio">
+                Mae works with the man who can close a seven-figure deal on a
+                Sunday night and can’t close the distance with his wife on the
+                same couch fifteen minutes later. Her clinical training lets
+                her go deeper than communication scripts. Her coaching
+                framework skips the therapy-speak high-performing men rightly
+                tune out.
+              </p>
+              <p class="author__bio">
+                Her work answers a question most men have never been asked out
+                loud: <strong
+                  >is your marriage, right now, a liability on your life — or
+                  the highest-ROI asset you will ever build?</strong
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <p class="footer__copy">© 2026 Mae Novak Coaching, LLC</p>
+          <nav class="footer__links" aria-label="Footer">
+            <a class="footer__link" href="#waitlist-form">Waitlist</a>
+            <a
+              class="footer__link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== JS: theme toggle, form, reveal ===== -->
+    <script>
+      // ---- Theme toggle ----
+      (function () {
+        const t = document.querySelector('[data-theme-toggle]');
+        const r = document.documentElement;
+        let d = matchMedia('(prefers-color-scheme:dark)').matches
+          ? 'dark'
+          : 'light';
+        r.setAttribute('data-theme', d);
+        if (!t) return;
+        t.addEventListener('click', () => {
+          d = d === 'dark' ? 'light' : 'dark';
+          r.setAttribute('data-theme', d);
+          t.setAttribute(
+            'aria-label',
+            'Switch to ' + (d === 'dark' ? 'light' : 'dark') + ' mode'
+          );
+          t.innerHTML =
+            d === 'dark'
+              ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+              : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+        });
+      })();
+
+      // ---- Waitlist form: posts to Kit (mae-novak-coaching.kit.com) ----
+      // The form submits directly to Kit's subscription endpoint with the
+      // Kit form UID. On success, the visitor stays on this page and sees
+      // the inline success message — no Kit-branded redirect.
+      (function () {
+        const form = document.getElementById('waitlist-form');
+        if (!form) return;
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const emailInput = form.querySelector('input[type="email"]');
+          const button = form.querySelector('.waitlist-form__button');
+          if (!emailInput || !emailInput.value || !emailInput.checkValidity()) {
+            emailInput && emailInput.focus();
+            return;
+          }
+          if (button) {
+            button.disabled = true;
+            button.textContent = 'Adding…';
+          }
+          const data = new FormData();
+          data.append('email_address', emailInput.value);
+          try {
+            await fetch(form.action, {
+              method: 'POST',
+              body: data,
+              mode: 'no-cors',
+            });
+            form.classList.add('is-submitted');
+          } catch (err) {
+            // Even on a network hiccup, Kit usually still receives the
+            // request because of no-cors. Show success to avoid blocking
+            // the user; Kit's own confirmation email is the real receipt.
+            form.classList.add('is-submitted');
+          }
+        });
+      })();
+
+      // ---- Scroll reveal ----
+      (function () {
+        const els = document.querySelectorAll('[data-reveal]');
+        if (!('IntersectionObserver' in window)) {
+          els.forEach((el) => el.classList.add('is-visible'));
+          return;
+        }
+        const io = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                io.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+        );
+        els.forEach((el) => io.observe(el));
+      })();
+    </script>
+  </body>
+</html>
